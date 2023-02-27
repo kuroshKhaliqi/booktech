@@ -46,23 +46,23 @@
 
 #red {
   color: red;
-  font-size: xx-large;
+  font-size: 2rem;
 }
 
 #white {
   color: white;
-  font-size: xx-large;
+  font-size: 2rem;
 }
 
 .link {
-  font-size: 30px;
+  font-size: 2rem;
   text-decoration: none;
   color: white;
   margin: 10px;
 }
 .link:hover {
   color: red;
-  font-size: 33px;
+  font-size: 2.1rem;
 }
 
 /*Main area*/
@@ -79,7 +79,7 @@
 }
 
 #slogan-white {
-  font-size: 50px;
+  font-size: 2.5rem;
   color: white;
   background-color: red;
   padding: 5px;
@@ -88,7 +88,7 @@
 #slogan-red {
   background-color: black;
   padding: 5px;
-  font-size: 50px;
+  font-size: 2.5rem;
   color: red;
 }
 
@@ -97,14 +97,14 @@
   padding: 10px;
   background-color: red;
   color: white;
-  font-size: x-large;
+  font-size: 2rem;
 }
 
 #message {
   color: white;
   margin-top: 25px;
   margin-bottom: 25px;
-  font-size: 60px;
+  font-size: 2.5rem;
 }
 
 #info-1-image {
@@ -192,11 +192,11 @@
 }
 
 #about-title {
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 #about-text {
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-top: 20px;
 }
 
@@ -225,18 +225,18 @@
 }
 
 #blog-title {
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 
 #blog-text {
-  font-size: 25px;
+  font-size: 1.5rem;
   margin-top: 20px;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 1.5rem;
   color: white;
   margin-top: 20px;
   border: 2px solid white;
@@ -287,11 +287,11 @@
 
 #cases-images {
   width: 100vw;
-  height: 50vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 .cases-img {
-  width: 24%;
-  height: 50%;
+  width: 23%;
   margin: 5px;
 }
 

@@ -1,0 +1,63 @@
+@media (max-width: 500px) {
+  #navbar,
+  #sub-container-1 {
+    position: relative;
+    flex-direction: column;
+  }
+  #sub-container-3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #main-area {
+    height: auto;
+    padding: 3em 1em;
+  }
+  #info,
+  #about,
+  #blog {
+    flex-direction: column;
+  }
+  #about div,
+  #blog div {
+    width: 100%;
+  }
+  #blog {
+    position: relative;
+  }
+  #cases {
+    display: none;
+  }
+  #team {
+    margin-top: 15em;
+  }
+  #team-members {
+    flex-direction: column;
+    margin-bottom: 5em;
+  }
+  #team-members div {
+    width: 100%;
+    padding: 0 2em;
+    margin: 0;
+  }
+  #footer {
+    margin-top: 60em;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+  #main-area {
+    height: auto;
+    padding: 15em 0 5em 0;
+  }
+  #about,
+  #blog {
+    height: 40vh;
+  }
+}
